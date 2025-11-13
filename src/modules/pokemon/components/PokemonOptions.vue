@@ -42,9 +42,11 @@ button {
 
 .correct {
   @apply bg-blue-500 text-white;
+  pointer-events: none;
 }
 
 .incorrect {
   @apply bg-red-500 opacity-70;
+  pointer-events: none;
 }
 </style>
