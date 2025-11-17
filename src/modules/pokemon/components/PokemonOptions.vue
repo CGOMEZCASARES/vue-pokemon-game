@@ -12,6 +12,7 @@
         },
       ]"
       :disabled="blockOptions"
+      :data-id="pokemon.id"
     >
       {{ pokemon.name }}
     </button>
